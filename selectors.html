@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on Selectors</title>
+</head>
+<style>
+
+div p{
+      /* It affects all the p that it finds inside the division tag no matter how inside it maybe */
+}
+
+div > p{
+        /* it affects only that p whose parent tag is the division tag */
+}
+
+div + p{
+        /* it affects only that p which is right after the division tag */
+        color: white;
+        background-color: black;
+}
+
+</style>
+
+<body>
+
+    <h1>More on selectors in this html file</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li>
+                    <p>This is a paragraph</p>
+                </li>
+                
+            </ul>
+            <p>This is another paragraph</p>
+            
+        </div>
+        <p>this is yet another paragraph</p>
+
+    </div>
+    <a href="1.html">Hello click me to go to the next web page</a>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+body , html{
+    margin: 0;
+    padding: 0;
+    /* background: url('../img/workout3.jpg'); */
+    color: white;
+    height: 100%;
+    width: 100%;
+    background-image:url('../img/workout3.jpg');
+    font-family: 'Baloo 2', cursive;
+}
+
+
+.left{
+   display: inline-block;
+   position: absolute;
+   left: 20px;
+   top: 20px;
+   /* border: 2px solid red; */
+
+    
+}
+.mid{
+    display: block;
+    /* border: 2px solid green; */
+    margin: 20px auto;
+    width: 44%;
+    text-align: center;
+
+}
+.right{ 
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    /* border: 2px solid yellow; */
+}
+
+.navbar{
+    display: inline-block;
+    margin-left: -39px;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 16px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    /* border: 2px solid red; */
+}
+
+.navbar li a.active ,.navbar li a:hover{
+    color: grey;
+    text-decoration: underline;
+
+
+}
+
+.left img{
+    height: 80px;
+filter: invert(100%);
+width: 118px;
+}
+
+.fit{
+    margin-top: -4px;
+}
+
+.btn{
+    font-family: 'Baloo 2', cursive;
+    padding: 1px 5px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 10px;
+}
+
+
+.btn:hover{
+    background-color: rgb(39, 38, 38);
+color: white;
+cursor: pointer;
+
+}
+
+.container{
+    display: block;
+    width: 48%;
+    /* border: 2px solid red; */
+    margin: 105px auto;
+    
+}
+
+.container h1{
+    text-align: center;
+}
+
+.container button{
+    margin: 12px auto;
+text-align: center;
+width: 56%;
+display: block;
+/* background-color: black;
+color: white; */
+font-size: 20px;
+}
+
+.form-group input{
+    text-align: center;
+    margin: 6px auto;
+    padding: 2px 2px;
+    font-size: 20px;
+    font-family: 'Baloo 2', cursive;
+    display: block;
+    width: 265px;
+    border-radius: 10px;
+}
